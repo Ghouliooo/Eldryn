@@ -1,0 +1,14 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cb_blade_of_judgement.hold": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [0, 135, -90],
+          "position": [0, 1, 0]
+        }
+      }
+    }
+  }
+}

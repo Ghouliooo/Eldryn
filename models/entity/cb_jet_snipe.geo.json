@@ -1,0 +1,57 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cb_jet_snipe",
+				"texture_width": 176,
+				"texture_height": 176,
+				"visible_bounds_width": 19,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 8, -7]
+				},
+				{
+					"name": "magic_circle",
+					"parent": "root",
+					"pivot": [0, 16, -8],
+					"cubes": [
+						{
+							"origin": [-5, 11, -8],
+							"size": [10, 10, 0],
+							"uv": {
+								"north": {"uv": [0, 48], "uv_size": [128, 128]}
+							}
+						}
+					]
+				},
+				{
+					"name": "jet_snipe",
+					"parent": "root",
+					"pivot": [0, 16, -8],
+					"cubes": [
+						{"origin": [-1, 15, -24], "size": [2, 2, 16], "uv": [0, 0]},
+						{
+							"origin": [0, 12, -24],
+							"size": [0, 8, 16],
+							"uv": {
+								"west": {"uv": [0, 18], "uv_size": [16, 8]}
+							}
+						},
+						{
+							"origin": [-4, 16, -24],
+							"size": [8, 0, 16],
+							"uv": {
+								"up": {"uv": [16, 18], "uv_size": [8, 16]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

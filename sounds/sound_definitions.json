@@ -1,0 +1,29 @@
+{
+    "introduction": {
+      "category": "music",
+      "sounds": [
+        { "name": "sounds/introduction", "stream": true, "volume": 1 }
+      ]
+    },
+    "haggstrom": {
+      "category": "music",
+      "sounds": [
+        { "name": "sounds/haggstrom", "stream": true, "volume": 1 }
+      ]
+    },
+	"sc.menu.select": {
+		"sounds": [
+			"sounds/sc/menu/select"
+		]
+	},
+	"sc.menu.scroll": {
+		"sounds": [
+			"sounds/sc/menu/scroll"
+		]
+	},
+	"sc.menu.no": {
+		"sounds": [
+			"sounds/sc/menu/no"
+		]
+	}
+}

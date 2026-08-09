@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cb:goblin",
+      "min_engine_version": "1.20.10",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/cb_goblin"
+      },
+      "geometry": {
+        "default": "geometry.cb_goblin"
+      },
+      "animations": {
+        "idle": "animation.cb_goblin.idle",
+        "walk": "animation.cb_goblin.walk",
+        "run": "animation.cb_goblin.run",
+        "swim": "animation.cb_goblin.swim",
+        "attack": "animation.cb_goblin.attack",
+        "controller": "controller.animation.cb_goblin"
+      },
+      "scripts": {
+        "animate": [ "controller" ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#5C7A4F",
+        "overlay_color": "#3D2B1F"
+      }
+    }
+  }
+}

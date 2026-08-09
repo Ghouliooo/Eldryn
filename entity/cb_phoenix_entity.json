@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cb:phoenix",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/cb_phoenix"
+      },
+      "geometry": {
+        "default": "geometry.cb_phoenix"
+      },
+      "animations": {
+        "idle": "animation.phoenix.idle",
+        "beak_m1": "animation.phoenix.attack",
+        "ground_slam": "animation.phoenix.ground_slam",
+        "controller": "controller.animation.cb_phoenix"
+      },
+      "scripts": {
+        "animate": [
+          "controller"
+        ]
+      },
+      "spawn_egg": {
+        "base_color": "#FF7A00",
+        "overlay_color": "#FF0909"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

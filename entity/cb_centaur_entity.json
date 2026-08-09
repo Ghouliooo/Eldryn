@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cb:centaur",
+      "min_engine_version": "1.20.10",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "cb_centaur1": "textures/entity/pamobile/cb_centaur1",
+        "cb_centaur2": "textures/entity/pamobile/cb_centaur2",
+        "cb_centaur3": "textures/entity/pamobile/cb_centaur3",
+        "cb_centaur4": "textures/entity/pamobile/cb_centaur4",
+        "cb_centaur5": "textures/entity/pamobile/cb_centaur5"
+      },
+      "geometry": {
+        "default": "geometry.cb_centaur"
+      },
+      "animations": {
+        "idle": "animation.centaur.idle",
+        "walk": "animation.centaur.walk",
+        "attack": "animation.centaur.Axe_Attack",
+        "swim": "animation.centaur.Swim",
+        "controller": "controller.animation.cb_centaur"
+      },
+      "scripts": {
+        "animate": [ "controller" ]
+      },
+      "render_controllers": [
+        "controller.render.cb_centaur"
+      ],
+      "spawn_egg": {
+        "base_color": "#ABABAB",
+        "overlay_color": "#550041"
+      }
+    }
+  }
+}

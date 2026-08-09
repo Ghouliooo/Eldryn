@@ -1,0 +1,82 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cb_water_shuriken",
+				"texture_width": 138,
+				"texture_height": 138,
+				"visible_bounds_width": 11,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 8, -8]
+				},
+				{
+					"name": "magic_circle",
+					"parent": "root",
+					"pivot": [0, 16, -8],
+					"cubes": [
+						{
+							"origin": [-8, 8, -8],
+							"size": [16, 16, 0],
+							"uv": {
+								"north": {"uv": [0, 10], "uv_size": [128, 128]}
+							}
+						}
+					]
+				},
+				{
+					"name": "shurikens",
+					"parent": "root",
+					"pivot": [0, 16, -8]
+				},
+				{
+					"name": "shuriken",
+					"parent": "shurikens",
+					"pivot": [0, 16, -12],
+					"cubes": [
+						{
+							"origin": [-4, 16, -16],
+							"size": [8, 0, 8],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [10, 10]}
+							}
+						}
+					]
+				},
+				{
+					"name": "shuriken2",
+					"parent": "shurikens",
+					"pivot": [0, 16, -12],
+					"cubes": [
+						{
+							"origin": [-4, 16, -16],
+							"size": [8, 0, 8],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [10, 10]}
+							}
+						}
+					]
+				},
+				{
+					"name": "shuriken3",
+					"parent": "shurikens",
+					"pivot": [0, 16, -12],
+					"cubes": [
+						{
+							"origin": [-4, 16, -16],
+							"size": [8, 0, 8],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [10, 10]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

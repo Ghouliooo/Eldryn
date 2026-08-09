@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cb:flamethrower",
+
+      "materials": {
+        "default": "entity_alphatest",
+        "emissive": "entity_emissive_alpha"
+      },
+
+      "textures": {
+        "default": "textures/entity/pamobile/cb_flamethrower",
+        "emissive": "textures/entity/pamobile/cb_flamethrower_e"
+      },
+
+      "geometry": {
+        "default": "geometry.cb_flamethrower"
+      },
+
+      "animations": {
+        "flamethrower": "animation.cb_flamethrower"
+      },
+
+      "scripts": {
+        "animate": [
+          "flamethrower"
+        ]
+      },
+
+      "render_controllers": [
+        "controller.render.cb_blade_of_judgement"
+      ]
+    }
+  }
+}

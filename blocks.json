@@ -1,0 +1,70 @@
+{
+  "cb:pheonix_heart": {
+    "textures": "cb_pheonix_heart",
+    "sound": "anvil"
+  },
+  "cb:dragon_egg": {
+    "textures": "cb_dragon_egg"
+  },
+  "cb:hippogryph_egg": {
+    "textures": "cb_hippogryph_egg"
+  },
+"cb_labrysium_block": {
+  "textures": "textures/blocks/cb_labrysium_block"
+},
+"cb_labrysium_ore": {
+  "textures": "textures/blocks/cb_labrysium_ore"
+},
+"cb_labrysium_deepslate_ore": {
+  "textures": "textures/blocks/cb_labrysium_ore_deepslate"
+},
+
+"cb_adamantium_block": {
+  "textures": "textures/blocks/cb_adamantium_block"
+},
+"cb_adamantium_ore": {
+  "textures": "textures/blocks/cb_adamantium_ore"
+},
+"cb_adamantium_deepslate_ore": {
+  "textures": "textures/blocks/cb_adamantium_ore_deepslate"
+},
+
+"cb_ruby_block": {
+  "textures": "textures/blocks/cb_ruby_block"
+},
+"cb_ruby_ore": {
+  "textures": "textures/blocks/cb_ruby_ore"
+},
+"cb_ruby_deepslate_ore": {
+  "textures": "textures/blocks/cb_ruby_ore_deepslate"
+},
+
+"cb_sapphire_block": {
+  "textures": "textures/blocks/cb_sapphire_block"
+},
+"cb_sapphire_ore": {
+  "textures": "textures/blocks/cb_sapphire_ore"
+},
+"cb_sapphire_deepslate_ore": {
+  "textures": "textures/blocks/cb_sapphire_ore_deepslate"
+},
+
+"cb_silver_block": {
+  "textures": "textures/blocks/cb_silver_block"
+},
+"cb_silver_ore": {
+  "textures": "textures/blocks/cb_silver_ore"
+},
+"cb_silver_deepslate_ore": {
+  "textures": "textures/blocks/cb_silver_ore_deepslate"
+},
+
+"cb_steel_block": {
+  "textures": "textures/blocks/cb_steel_block"
+},
+  "format_version": [
+    1,
+    1,
+    0
+  ]
+}

@@ -1,0 +1,119 @@
+{
+	"format_version": "1.21.110",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cb_pheonix_heart",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "cb_phoenix_heart",
+					"pivot": [-2, 5, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -5],
+							"size": [10, 2, 10],
+							"uv": {
+								"north": {"uv": [18, 34], "uv_size": [10, 2]},
+								"east": {"uv": [36, 0], "uv_size": [10, 2]},
+								"south": {"uv": [36, 2], "uv_size": [10, 2]},
+								"west": {"uv": [36, 4], "uv_size": [10, 2]},
+								"up": {"uv": [18, 4], "uv_size": [10, 10]},
+								"down": {"uv": [12, 28], "uv_size": [10, -10]}
+							}
+						},
+						{
+							"origin": [-4, 2, -4],
+							"size": [8, 10, 8],
+							"inflate": 0.1,
+							"uv": {
+								"north": {"uv": [22, 24], "uv_size": [8, 10]},
+								"east": {"uv": [28, 0], "uv_size": [8, 10]},
+								"south": {"uv": [10, 28], "uv_size": [8, 10]},
+								"west": {"uv": [0, 30], "uv_size": [8, 10]},
+								"up": {"uv": [30, 24], "uv_size": [8, 8]},
+								"down": {"uv": [32, 18], "uv_size": [8, -8]}
+							}
+						},
+						{
+							"origin": [-3, 14, -3],
+							"size": [6, 2, 6],
+							"uv": {
+								"north": {"uv": [22, 0], "uv_size": [6, 2]},
+								"east": {"uv": [22, 2], "uv_size": [6, 2]},
+								"south": {"uv": [36, 34], "uv_size": [6, 2]},
+								"west": {"uv": [36, 36], "uv_size": [6, 2]},
+								"up": {"uv": [32, 18], "uv_size": [6, 6]},
+								"down": {"uv": [30, 38], "uv_size": [6, -6]}
+							}
+						},
+						{
+							"origin": [-5, 12, -5],
+							"size": [10, 2, 10],
+							"uv": {
+								"north": {"uv": [36, 6], "uv_size": [10, 2]},
+								"east": {"uv": [36, 8], "uv_size": [10, 2]},
+								"south": {"uv": [18, 36], "uv_size": [10, 2]},
+								"west": {"uv": [36, 32], "uv_size": [10, 2]},
+								"up": {"uv": [0, 20], "uv_size": [10, 10]},
+								"down": {"uv": [22, 24], "uv_size": [10, -10]}
+							}
+						},
+						{"origin": [-2, 16, 0], "size": [4, 4, 0], "uv": [14, 0]},
+						{"origin": [-1, 16, -1], "size": [2, 2, 2], "uv": [12, 14]},
+						{"origin": [-1, 4, -1], "size": [2, 5.5, 2], "uv": [0, 0]},
+						{"origin": [1, 5, -1], "size": [1, 6, 2], "uv": [0, 7]},
+						{"origin": [2, 6, -1], "size": [1, 5, 2], "uv": [8, 0]},
+						{"origin": [3, 7, -1], "size": [1, 3, 2], "uv": [0, 15]},
+						{"origin": [-4, 7, -1], "size": [1, 3, 2], "uv": [6, 15]},
+						{"origin": [-3, 6, -1], "size": [1, 5, 2], "uv": [12, 7]},
+						{"origin": [-2, 5, -1], "size": [1, 6, 2], "uv": [6, 7]}
+					]
+				}
+			],
+			"item_display_transforms": {
+				"thirdperson_righthand": {
+					"rotation": [67, 0, 0],
+					"translation": [0, -4, -6.25],
+					"scale": [0.6, 0.6, 0.6],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				},
+				"thirdperson_lefthand": {
+					"rotation": [67, 0, 0],
+					"translation": [0, -4, -6.25],
+					"scale": [0.6, 0.6, 0.6],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				},
+				"ground": {
+					"rotation": [0, 0, 0],
+					"translation": [0, 4.75, 0],
+					"scale": [1, 1, 1],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				},
+				"gui": {
+					"rotation": [45, -45, 0],
+					"translation": [0, 0, 0],
+					"scale": [0.7, 0.7, 0.7],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0],
+					"fit_to_frame": false
+				},
+				"fixed": {
+					"rotation": [0, 0, 0],
+					"translation": [0, -2, 0],
+					"scale": [0.9, 0.9, 0.9],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				}
+			}
+		}
+	]
+}
