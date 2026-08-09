@@ -27,6 +27,7 @@ For a complete list of third-party assets and their sources, please contact:
 For permission requests, write to:
 
 `eldrynofficial@gmail.com`
+
 Subject: Resource Pack Permission
 
 Unauthorized use, reproduction or distribution of this "Resource Pack" or any portion of it may result in civil and criminal penalties and will be pursued to the maximum extent permitted under applicable law.
