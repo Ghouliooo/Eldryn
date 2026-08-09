@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cb:water_shuriken",
+
+      "materials": {
+        "default": "entity_alphatest",
+        "emissive": "entity_emissive_alpha"
+      },
+
+      "textures": {
+        "default": "textures/entity/pamobile/cb_water_shuriken",
+        "emissive": "textures/entity/pamobile/cb_water_shuriken_e"
+      },
+
+      "geometry": {
+        "default": "geometry.cb_water_shuriken"
+      },
+
+      "animations": {
+        "water_shuriken": "animation.cb_water_shuriken"
+      },
+
+      "scripts": {
+        "animate": [
+          "water_shuriken"
+        ]
+      },
+
+      "render_controllers": [
+        "controller.render.cb_blade_of_judgement"
+      ]
+    }
+  }
+}

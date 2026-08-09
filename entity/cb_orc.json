@@ -1,0 +1,35 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cb:orc",
+      "min_engine_version": "1.20.10",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/cb_orc"
+      },
+      "geometry": {
+        "default": "geometry.cb_orc"
+      },
+      "animations": {
+        "idle": "animation.orc.idle",
+        "walk": "animation.orc.walk",
+        "swim": "animation.orc.swim",
+        "attack": "animation.model.attack",
+        "controller": "controller.animation.cb_orc"
+      },
+      "scripts": {
+        "animate": [ "controller" ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#4A5D3A",
+        "overlay_color": "#7A6248"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cb:bullshark",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/cb_bullshark"
+      },
+      "geometry": {
+        "default": "geometry.cb_bullshark"
+      },
+      "animations": {
+        "idle": "animation.bull_shark.idle",
+        "swim": "animation.bull_shark.swim",
+        "bite": "animation.bull_shark.bite",
+        "out_of_water": "animation.bull_shark.out_of_water",
+        "move_controller": "controller.animation.cb_bullshark.move",
+        "attack_controller": "controller.animation.cb_bullshark.attack"
+      },
+      "scripts": {
+        "animate": [
+          "move_controller",
+          "attack_controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#ABABAB",
+        "overlay_color": "#550041"
+      }
+    }
+  }
+}

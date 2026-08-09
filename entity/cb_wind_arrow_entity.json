@@ -1,0 +1,34 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cb:wind_arrow",
+
+      "materials": {
+        "default": "entity_alphatest"
+      },
+
+      "textures": {
+        "default": "textures/entity/pamobile/cb_air_blade"
+      },
+
+      "geometry": {
+        "default": "geometry.cb_air_arrow"
+      },
+
+      "animations": {
+        "air_arrow": "animation.cb_air_arrow"
+      },
+
+      "scripts": {
+        "animate": [
+          "air_arrow"
+        ]
+      },
+
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

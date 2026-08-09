@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cb:hippogryph_tamed",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/cb_hippogryph_tamed"
+      },
+      "geometry": {
+        "default": "geometry.cb_hippogryph"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#ABABAB",
+        "overlay_color": "#550041"
+      },
+      "animations": {
+        "idle": "animation.cb_hippogryph_Idle",
+        "walk": "animation.cb_hippogryph_walk",
+        "run": "animation.cb_hippogryph_run",
+        "swim": "animation.cb_hippogryph_swim",
+        "launch": "animation.cb_hippogryph_launch",
+        "floatdown": "animation.cb_hippogryph_floatdown",
+        "stomp": "animation.cb_hippogryph_stomp",
+        "controller": "controller.animation.cb_hippogryph_movement"
+      },
+      "scripts": {
+        "animate": ["controller"]
+      }
+    }
+  }
+}

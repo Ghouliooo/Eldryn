@@ -1,0 +1,50 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cb_whirlpool",
+				"texture_width": 240,
+				"texture_height": 240,
+				"visible_bounds_width": 13,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "whirlpool",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-80, 0.01, -80],
+							"size": [160, 0, 160],
+							"inflate": 0.01,
+							"uv": {
+								"up": {"uv": [104, 104], "uv_size": [-104, -104]}
+							}
+						}
+					]
+				},
+				{
+					"name": "magic_circle",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-32, 0, -32],
+							"size": [64, 0, 64],
+							"uv": {
+								"up": {"uv": [112, 0], "uv_size": [128, 128]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
