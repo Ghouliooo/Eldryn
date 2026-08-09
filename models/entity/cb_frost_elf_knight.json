@@ -1,0 +1,515 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.cb_frost_elf_knight",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 3.5,
+        "visible_bounds_offset": [
+          0,
+          1.25,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "whole",
+          "pivot": [
+            0,
+            16,
+            0
+          ]
+        },
+        {
+          "name": "waist",
+          "parent": "whole",
+          "pivot": [
+            0,
+            12,
+            0
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "waist",
+          "pivot": [
+            0,
+            24,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4,
+                24,
+                -4
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -4,
+                24,
+                -4
+              ],
+              "size": [
+                8,
+                8,
+                3
+              ],
+              "inflate": 0.5,
+              "uv": [
+                32,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "helmet",
+          "parent": "head",
+          "pivot": [
+            0,
+            28.39511,
+            -0.44356
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -5,
+                27.75,
+                -5.5
+              ],
+              "size": [
+                10,
+                3,
+                6
+              ],
+              "pivot": [
+                0,
+                28.75,
+                -4.5
+              ],
+              "rotation": [
+                -10,
+                0,
+                0
+              ],
+              "uv": [
+                0,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "name": "body",
+          "parent": "waist",
+          "pivot": [
+            0,
+            24,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4,
+                12,
+                -2
+              ],
+              "size": [
+                8,
+                12,
+                4
+              ],
+              "uv": [
+                0,
+                25
+              ]
+            },
+            {
+              "origin": [
+                -4,
+                12,
+                -2
+              ],
+              "size": [
+                8,
+                12,
+                4
+              ],
+              "inflate": 0.25,
+              "uv": [
+                24,
+                25
+              ]
+            },
+            {
+              "origin": [
+                -5,
+                21,
+                0
+              ],
+              "size": [
+                10,
+                4,
+                4
+              ],
+              "pivot": [
+                0,
+                23,
+                3
+              ],
+              "rotation": [
+                -12.5,
+                0,
+                0
+              ],
+              "uv": [
+                32,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cape1",
+          "parent": "body",
+          "pivot": [
+            0,
+            21.5,
+            2.45
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4,
+                17,
+                2.45
+              ],
+              "size": [
+                8,
+                6,
+                0
+              ],
+              "uv": [
+                32,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cape2",
+          "parent": "cape1",
+          "pivot": [
+            0,
+            17,
+            2.45
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4,
+                13,
+                2.45
+              ],
+              "size": [
+                8,
+                4,
+                0
+              ],
+              "uv": [
+                70,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cape3",
+          "parent": "cape2",
+          "pivot": [
+            0,
+            13,
+            2.45
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4,
+                9,
+                2.45
+              ],
+              "size": [
+                8,
+                4,
+                0
+              ],
+              "uv": [
+                70,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cape4",
+          "parent": "cape3",
+          "pivot": [
+            0,
+            9,
+            2.45
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -5,
+                7,
+                1.45
+              ],
+              "size": [
+                10,
+                2,
+                2
+              ],
+              "uv": [
+                54,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "right_arm",
+          "parent": "waist",
+          "pivot": [
+            -5,
+            22,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -7,
+                12,
+                -2
+              ],
+              "size": [
+                3,
+                12,
+                4
+              ],
+              "uv": [
+                48,
+                35
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                12,
+                -2
+              ],
+              "size": [
+                3,
+                12,
+                4
+              ],
+              "inflate": 0.25,
+              "uv": [
+                48,
+                51
+              ]
+            }
+          ]
+        },
+        {
+          "name": "rightitem",
+          "parent": "right_arm",
+          "pivot": [
+            -5.5,
+            13.5,
+            0
+          ],
+          "locators": {
+            "lead_hold": [
+              -5.5,
+              13.5,
+              0
+            ]
+          }
+        },
+        {
+          "name": "left_arm",
+          "parent": "waist",
+          "pivot": [
+            5,
+            22,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                4,
+                12,
+                -2
+              ],
+              "size": [
+                3,
+                12,
+                4
+              ],
+              "uv": [
+                0,
+                57
+              ]
+            },
+            {
+              "origin": [
+                4,
+                12,
+                -2
+              ],
+              "size": [
+                3,
+                12,
+                4
+              ],
+              "inflate": 0.25,
+              "uv": [
+                14,
+                57
+              ]
+            }
+          ]
+        },
+        {
+          "name": "right_leg",
+          "parent": "whole",
+          "pivot": [
+            -1.9,
+            12,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -3.9,
+                0,
+                -2
+              ],
+              "size": [
+                4,
+                12,
+                4
+              ],
+              "uv": [
+                0,
+                41
+              ]
+            },
+            {
+              "origin": [
+                -3.9,
+                0,
+                -2
+              ],
+              "size": [
+                4,
+                12,
+                4
+              ],
+              "inflate": 0.25,
+              "uv": [
+                16,
+                41
+              ]
+            }
+          ]
+        },
+        {
+          "name": "left_leg",
+          "parent": "whole",
+          "pivot": [
+            1.9,
+            12,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -0.1,
+                0,
+                -2
+              ],
+              "size": [
+                4,
+                12,
+                4
+              ],
+              "uv": [
+                32,
+                41
+              ]
+            },
+            {
+              "origin": [
+                4,
+                9.5,
+                -6
+              ],
+              "size": [
+                2,
+                2,
+                12
+              ],
+              "pivot": [
+                5,
+                9.5,
+                2
+              ],
+              "rotation": [
+                -15,
+                0,
+                0
+              ],
+              "uv": [
+                58,
+                23
+              ]
+            },
+            {
+              "origin": [
+                -0.1,
+                0,
+                -2
+              ],
+              "size": [
+                4,
+                12,
+                4
+              ],
+              "inflate": 0.25,
+              "uv": [
+                48,
+                19
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cb:jet_snipe",
+
+      "materials": {
+        "default": "entity_alphatest",
+        "emissive": "entity_emissive_alpha"
+      },
+
+      "textures": {
+        "default": "textures/entity/pamobile/cb_jet_snipe",
+        "emissive": "textures/entity/pamobile/cb_jet_snipe_e"
+      },
+
+      "geometry": {
+        "default": "geometry.cb_jet_snipe"
+      },
+
+      "animations": {
+        "jet_snipe": "animation.cb_jet_snipe"
+      },
+
+      "scripts": {
+        "animate": [
+          "jet_snipe"
+        ]
+      },
+
+      "render_controllers": [
+        "controller.render.cb_blade_of_judgement"
+      ]
+    }
+  }
+}

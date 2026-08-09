@@ -1,0 +1,267 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cb_flame_repulsion",
+				"texture_width": 80,
+				"texture_height": 80,
+				"visible_bounds_width": 9,
+				"visible_bounds_height": 8,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 8.5, 0]
+				},
+				{
+					"name": "fire_sphere",
+					"parent": "root",
+					"pivot": [0, 8.5, 0]
+				},
+				{
+					"name": "fire_sphere3",
+					"parent": "fire_sphere",
+					"pivot": [8, 8, -8],
+					"cubes": [
+						{
+							"origin": [0, 9, -8],
+							"size": [8, 0, 8],
+							"uv": {
+								"up": {"uv": [16, 16], "uv_size": [16, 16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "fire_sphere4",
+					"parent": "fire_sphere",
+					"pivot": [-8, 8, -8],
+					"cubes": [
+						{
+							"origin": [-8, 9, -8],
+							"size": [8, 0, 8],
+							"uv": {
+								"up": {"uv": [0, 16], "uv_size": [16, 16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "fire_sphere5",
+					"parent": "fire_sphere",
+					"pivot": [8, 8, 8],
+					"cubes": [
+						{
+							"origin": [0, 9, 0],
+							"size": [8, 0, 8],
+							"uv": {
+								"up": {"uv": [16, 0], "uv_size": [16, 16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "fire_sphere6",
+					"parent": "fire_sphere",
+					"pivot": [-8, 8, 8],
+					"cubes": [
+						{
+							"origin": [-8, 9, 0],
+							"size": [8, 0, 8],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [16, 16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "second_fire_sphere",
+					"parent": "fire_sphere",
+					"pivot": [0, 9, 0],
+					"rotation": [0, 0, 90]
+				},
+				{
+					"name": "fire_sphere7",
+					"parent": "second_fire_sphere",
+					"pivot": [8, 8, -8],
+					"cubes": [
+						{
+							"origin": [0, 9, -8],
+							"size": [8, 0, 8],
+							"uv": {
+								"up": {"uv": [16, 16], "uv_size": [16, 16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "fire_sphere8",
+					"parent": "second_fire_sphere",
+					"pivot": [-8, 8, -8],
+					"cubes": [
+						{
+							"origin": [-8, 9, -8],
+							"size": [8, 0, 8],
+							"uv": {
+								"up": {"uv": [0, 16], "uv_size": [16, 16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "fire_sphere9",
+					"parent": "second_fire_sphere",
+					"pivot": [8, 8, 8],
+					"cubes": [
+						{
+							"origin": [0, 9, 0],
+							"size": [8, 0, 8],
+							"uv": {
+								"up": {"uv": [16, 0], "uv_size": [16, 16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "fire_sphere10",
+					"parent": "second_fire_sphere",
+					"pivot": [-8, 8, 8],
+					"cubes": [
+						{
+							"origin": [-8, 9, 0],
+							"size": [8, 0, 8],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [16, 16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "fire_effect",
+					"parent": "root",
+					"pivot": [0, 9, 0]
+				},
+				{
+					"name": "fire_effect2",
+					"parent": "fire_effect",
+					"pivot": [12, 9, -12],
+					"cubes": [
+						{
+							"origin": [0, 9, -12],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {"uv": [24, 56], "uv_size": [24, 24]}
+							}
+						}
+					]
+				},
+				{
+					"name": "fire_effect3",
+					"parent": "fire_effect",
+					"pivot": [-12, 9, -12],
+					"cubes": [
+						{
+							"origin": [-12, 9, -12],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {"uv": [0, 56], "uv_size": [24, 24]}
+							}
+						}
+					]
+				},
+				{
+					"name": "fire_effect4",
+					"parent": "fire_effect",
+					"pivot": [12, 9, 12],
+					"cubes": [
+						{
+							"origin": [0, 9, 0],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {"uv": [24, 32], "uv_size": [24, 24]}
+							}
+						}
+					]
+				},
+				{
+					"name": "fire_effect5",
+					"parent": "fire_effect",
+					"pivot": [-12, 9, 12],
+					"cubes": [
+						{
+							"origin": [-12, 9, 0],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {"uv": [0, 32], "uv_size": [24, 24]}
+							}
+						}
+					]
+				},
+				{
+					"name": "second_fire_effect",
+					"parent": "fire_effect",
+					"pivot": [0, 9, 0],
+					"rotation": [0, 0, 90]
+				},
+				{
+					"name": "fire_effect7",
+					"parent": "second_fire_effect",
+					"pivot": [12, 9, -12],
+					"cubes": [
+						{
+							"origin": [0, 9, -12],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {"uv": [24, 56], "uv_size": [24, 24]}
+							}
+						}
+					]
+				},
+				{
+					"name": "fire_effect8",
+					"parent": "second_fire_effect",
+					"pivot": [-12, 9, -12],
+					"cubes": [
+						{
+							"origin": [-12, 9, -12],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {"uv": [0, 56], "uv_size": [24, 24]}
+							}
+						}
+					]
+				},
+				{
+					"name": "fire_effect9",
+					"parent": "second_fire_effect",
+					"pivot": [12, 9, 12],
+					"cubes": [
+						{
+							"origin": [0, 9, 0],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {"uv": [24, 32], "uv_size": [24, 24]}
+							}
+						}
+					]
+				},
+				{
+					"name": "fire_effect10",
+					"parent": "second_fire_effect",
+					"pivot": [-12, 9, 12],
+					"cubes": [
+						{
+							"origin": [-12, 9, 0],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {"uv": [0, 32], "uv_size": [24, 24]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

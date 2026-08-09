@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cb:yeti",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/cb_yeti"
+      },
+      "geometry": {
+        "default": "geometry.cb_yeti_default"
+      },
+      "animations": {
+        "idle": "animation.cb_yeti.idle",
+        "walk": "animation.cb_yeti.walk",
+        "run": "animation.cb_yeti.run",
+        "right_attack": "animation.cb_yeti.right_attack",
+        "left_attack": "animation.cb_yeti.left_attack",
+        "ice_throw": "animation.cb_yeti.ice_throw",
+        "stomp": "animation.cb_yeti.stomp",
+        "swim": "animation.cb_yeti.swim",
+        "controller": "controller.animation.yeti"
+      },
+      "scripts": {
+        "animate": [
+          "controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#E8F4F8",
+        "overlay_color": "#3B6E8F"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.cb_serpent": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "array.skins[query.variant]" ],
+      "arrays": {
+        "textures": {
+          "array.skins": [ "Texture.blue", "Texture.green", "Texture.red" ]
+        }
+      }
+    }
+  }
+}

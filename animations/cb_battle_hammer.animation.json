@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cb_battle_hammer.hold_third_person": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				}
+			}
+		},
+		"animation.cb_battle_hammer.hold_first_person": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [95, -45, 115],
+					"position": [13.5, -10, 12]
+				},
+				"battle_hammer": {
+					"rotation": [0.532, -68.6085, 126.3994],
+					"position": [0, 4, 1]
+				}
+			}
+		}
+	}
+}
