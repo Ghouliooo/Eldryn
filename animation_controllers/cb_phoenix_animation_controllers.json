@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cb_phoenix": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "animations": ["idle"],
+          "transitions": [
+            { "beak_m1": "query.property('cb:action_state') == 1" },
+            { "ground_slam": "query.property('cb:action_state') == 2" }
+          ]
+        },
+        "beak_m1": {
+          "animations": ["beak_m1"],
+          "transitions": [
+            { "idle": "query.any_animation_finished" }
+          ]
+        },
+        "ground_slam": {
+          "animations": ["ground_slam"],
+          "transitions": [
+            { "idle": "query.any_animation_finished" }
+          ]
+        }
+      }
+    }
+  }
+}
