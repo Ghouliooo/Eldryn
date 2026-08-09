@@ -46,6 +46,7 @@ Unauthorized use, reproduction or distribution of this "Resource Pack" or any po
 ## Developers
 
 - jashanmaan5
+- ayatodayoh
 - joaololpvp
 - rifkyapn
 - mangelox
