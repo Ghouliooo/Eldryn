@@ -1,0 +1,109 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cb_land_dragon": {
+      "initial_state": "sleeping",
+      "states": {
+        "sleeping": {
+          "animations": ["sleep"],
+          "transitions": [
+            { "waking": "query.property('cb:action_state') == 5" }
+          ]
+        },
+        "waking": {
+          "animations": ["wake_up"],
+          "transitions": [
+            { "idle": "query.any_animation_finished" }
+          ]
+        },
+        "idle": {
+          "animations": ["idle"],
+          "transitions": [
+            { "walk": "query.modified_move_speed > 0.1 && query.property('cb:action_state') == 0 && query.is_on_ground" },
+            { "swim": "query.is_in_water" },
+            { "claw_a": "query.property('cb:action_state') == 1" },
+            { "claw_b": "query.property('cb:action_state') == 2" },
+            { "tail": "query.property('cb:action_state') == 3" },
+            { "stomp": "query.property('cb:action_state') == 4" },
+            { "takeoff": "query.property('cb:action_state') == 6" }
+          ]
+        },
+        "walk": {
+          "animations": ["walk"],
+          "transitions": [
+            { "idle": "query.modified_move_speed <= 0.1 && query.property('cb:action_state') == 0" },
+            { "run": "query.modified_move_speed > 0.5 && query.property('cb:action_state') == 0" },
+            { "swim": "query.is_in_water" },
+            { "claw_a": "query.property('cb:action_state') == 1" },
+            { "claw_b": "query.property('cb:action_state') == 2" },
+            { "tail": "query.property('cb:action_state') == 3" },
+            { "stomp": "query.property('cb:action_state') == 4" },
+            { "takeoff": "query.property('cb:action_state') == 6" }
+          ]
+        },
+        "run": {
+          "animations": ["run"],
+          "transitions": [
+            { "walk": "query.modified_move_speed <= 0.5 && query.property('cb:action_state') == 0" },
+            { "swim": "query.is_in_water" },
+            { "claw_a": "query.property('cb:action_state') == 1" },
+            { "claw_b": "query.property('cb:action_state') == 2" },
+            { "tail": "query.property('cb:action_state') == 3" },
+            { "stomp": "query.property('cb:action_state') == 4" },
+            { "takeoff": "query.property('cb:action_state') == 6" }
+          ]
+        },
+        "swim": {
+          "animations": ["swim"],
+          "transitions": [
+            { "idle": "!query.is_in_water" }
+          ]
+        },
+        "claw_a": {
+          "animations": ["claw_attack"],
+          "transitions": [
+            { "idle": "query.any_animation_finished" }
+          ]
+        },
+        "claw_b": {
+          "animations": ["claw_attack2"],
+          "transitions": [
+            { "idle": "query.any_animation_finished" }
+          ]
+        },
+        "tail": {
+          "animations": ["tail_attack"],
+          "transitions": [
+            { "idle": "query.property('cb:action_state') == 0" }
+          ]
+        },
+        "stomp": {
+          "animations": ["stomp_attack"],
+          "transitions": [
+            { "idle": "query.any_animation_finished || query.property('cb:action_state') == 0" }
+          ]
+        },
+        "takeoff": {
+          "animations": ["launch"],
+          "transitions": [
+            { "flying": "query.any_animation_finished" }
+          ]
+        },
+        "flying": {
+          "animations": ["flying"],
+          "transitions": [
+            { "flying_idle": "query.modified_move_speed <= 0.05" },
+            { "idle": "query.is_on_ground" }
+          ]
+        },
+        "flying_idle": {
+          "animations": ["flying_idle"],
+          "transitions": [
+            { "flying": "query.modified_move_speed > 0.05 && !query.is_on_ground" },
+            { "idle": "query.is_on_ground" }
+          ]
+        }
+      }
+    }
+  }
+}
