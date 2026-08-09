@@ -1,0 +1,34 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cb:deer",
+      "min_engine_version": "1.20.10",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/cb_deer"
+      },
+      "geometry": {
+        "default": "geometry.cb_deer"
+      },
+      "animations": {
+        "idle": "animation.cb_deer.idle",
+        "walk": "animation.cb_deer.walk",
+        "run": "animation.cb_deer.run",
+        "controller": "controller.animation.cb_deer"
+      },
+      "scripts": {
+        "animate": [ "controller" ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#ABABAB",
+        "overlay_color": "#550041"
+      }
+    }
+  }
+}

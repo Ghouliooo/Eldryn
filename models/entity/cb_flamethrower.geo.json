@@ -1,0 +1,99 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cb_flamethrower",
+				"texture_width": 224,
+				"texture_height": 224,
+				"visible_bounds_width": 19,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 16, -40]
+				},
+				{
+					"name": "fire_beam",
+					"parent": "root",
+					"pivot": [0, 16, 0],
+					"cubes": [
+						{
+							"origin": [-9, 7, -80],
+							"size": [18, 18, 26],
+							"uv": {
+								"north": {"uv": [160, 88], "uv_size": [18, 18]},
+								"east": {"uv": [160, 0], "uv_size": [26, 18]},
+								"south": {"uv": [160, 106], "uv_size": [18, 18]},
+								"west": {"uv": [160, 18], "uv_size": [26, 18]},
+								"up": {"uv": [160, 36], "uv_size": [18, 26]},
+								"down": {"uv": [160, 88], "uv_size": [18, -26]}
+							}
+						},
+						{
+							"origin": [-7, 9, -54],
+							"size": [14, 14, 22],
+							"uv": {
+								"north": {"uv": [178, 84], "uv_size": [14, 14]},
+								"east": {"uv": [160, 124], "uv_size": [22, 14]},
+								"south": {"uv": [178, 98], "uv_size": [14, 14]},
+								"west": {"uv": [160, 138], "uv_size": [22, 14]},
+								"up": {"uv": [160, 152], "uv_size": [14, 22]},
+								"down": {"uv": [174, 174], "uv_size": [14, -22]}
+							}
+						},
+						{
+							"origin": [-6, 10, -32],
+							"size": [12, 12, 18],
+							"uv": {
+								"north": {"uv": [178, 112], "uv_size": [12, 12]},
+								"east": {"uv": [160, 174], "uv_size": [18, 12]},
+								"south": {"uv": [178, 174], "uv_size": [12, 12]},
+								"west": {"uv": [178, 36], "uv_size": [18, 12]},
+								"up": {"uv": [178, 48], "uv_size": [12, 18]},
+								"down": {"uv": [178, 84], "uv_size": [12, -18]}
+							}
+						},
+						{
+							"origin": [-4, 12, -14],
+							"size": [8, 8, 14],
+							"uv": {
+								"north": {"uv": [182, 140], "uv_size": [8, 8]},
+								"east": {"uv": [182, 124], "uv_size": [14, 8]},
+								"south": {"uv": [186, 28], "uv_size": [8, 8]},
+								"west": {"uv": [182, 132], "uv_size": [14, 8]},
+								"up": {"uv": [186, 0], "uv_size": [8, 14]},
+								"down": {"uv": [186, 28], "uv_size": [8, -14]}
+							}
+						}
+					]
+				},
+				{
+					"name": "fire_beam2",
+					"parent": "fire_beam",
+					"pivot": [0, 16, -80],
+					"cubes": [
+						{"origin": [0, 0, -80], "size": [0, 32, 80], "uv": [0, 79]},
+						{"origin": [0, 0, -80], "size": [0, 32, 80], "pivot": [0, 16, -40], "rotation": [0, 0, 90], "uv": [0, 112]}
+					]
+				},
+				{
+					"name": "magic_circle",
+					"parent": "root",
+					"pivot": [0, 16, 0],
+					"cubes": [
+						{
+							"origin": [-8, 8, 0],
+							"size": [16, 16, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [128, 128]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

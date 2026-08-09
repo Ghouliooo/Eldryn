@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cb:frost_elf_knight",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/cb_frost_elf_knight"
+      },
+      "geometry": {
+        "default": "geometry.cb_frost_elf_knight"
+      },
+      "scripts": {
+  "pre_animation": [
+    "v.attacking = q.property('cb:is_attacking');"
+  ],
+  "animate": [
+    "main"
+  ]
+},
+      "animations": {
+        "idle":   "animation.cb_frost_elf_knight.idle",
+        "walk":   "animation.cb_frost_elf_knight.walk",
+        "run":    "animation.cb_frost_elf_knight.run",
+        "swim":   "animation.cb_frost_elf_knight.swim",
+        "attack": "animation.cb_frost_elf_knight.attack",
+        "holding_bow": "animation.cb_frost_elf_knight.holding_bow",
+        "main":   "controller.animation.cb_frost_elf_knight.main"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "texture": "cb_frost_elf_knight_se",
+        "texture_index": 0
+      }
+    }
+  }
+}

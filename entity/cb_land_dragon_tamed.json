@@ -1,0 +1,46 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cb:land_dragon_tamed",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/cb_land_dragon"
+      },
+      "geometry": {
+        "default": "geometry.cb_land_dragon"
+      },
+      "animations": {
+        "idle": "animation.cb_land_dragon.idle",
+        "walk": "animation.cb_land_dragon.walk",
+        "run": "animation.cb_land_dragon.run",
+        "swim": "animation.cb_land_dragon.swim",
+        "sleep": "animation.cb_land_dragon.sleep",
+        "wake_up": "animation.cb_land_dragon.wake_up",
+        "launch": "animation.cb_land_dragon.launch",
+        "flying": "animation.cb_land_dragon.flying",
+        "flying_idle": "animation.cb_land_dragon.flying_idle",
+        "stomp_attack": "animation.cb_land_dragon.stomp_attack",
+        "claw_attack": "animation.cb_land_dragon.claw_attack",
+        "claw_attack2": "animation.cb_land_dragon.claw_attack2",
+        "tail_attack": "animation.cb_land_dragon.tail_attack",
+        "controller": "controller.animation.cb_land_dragon"
+      },
+      "scripts": {
+        "animate": [
+          "controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#ABABAB",
+        "overlay_color": "#550041"
+      }
+    }
+  }
+}

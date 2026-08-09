@@ -1,0 +1,98 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cb_deer",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 5.5,
+				"visible_bounds_offset": [0, 2.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Body",
+					"pivot": [0, 13, 9],
+					"cubes": [
+						{"origin": [-5, 12, -11], "size": [10, 10, 21.5], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "TailA",
+					"pivot": [0, 18, 11],
+					"rotation": [30, 0, 0],
+					"cubes": [
+						{"origin": [-1.5, 16.73205, 9.76795], "size": [3, 3, 3], "uv": [60, 31]}
+					]
+				},
+				{
+					"name": "Neck",
+					"pivot": [0, 12, -11],
+					"cubes": [
+						{"origin": [3, 30.5, -12], "size": [8, 8.5, 4], "uv": [24, 31]},
+						{"origin": [-11, 30.5, -12], "size": [8, 8.5, 4], "uv": [24, 43]},
+						{"origin": [-3, 12.5, -13], "size": [6, 20.5, 6], "uv": [0, 31]}
+					]
+				},
+				{
+					"name": "eyes",
+					"parent": "Neck",
+					"pivot": [0.6, 30, -10],
+					"cubes": [
+						{"origin": [2.209, 30, -14], "size": [0, 1, 2], "pivot": [2.1, 30, -12.9], "rotation": [0, 90, 0], "uv": [0, 2]},
+						{"origin": [-2, 30, -14], "size": [0, 1, 2], "pivot": [-2, 30, -13], "rotation": [0, -90, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Neck",
+					"pivot": [0, 30, -13],
+					"cubes": [
+						{"origin": [-2.5, 27, -16.5], "size": [5, 3, 3.5], "uv": [1, 58]}
+					]
+				},
+				{
+					"name": "legs_2",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Leg1A",
+					"parent": "legs_2",
+					"pivot": [-4, 13, -9],
+					"cubes": [
+						{"origin": [-5.3, 0, -10.3], "size": [3, 14, 3], "uv": [48, 31]}
+					]
+				},
+				{
+					"name": "Leg2A",
+					"parent": "legs_2",
+					"pivot": [4, 13, 8],
+					"cubes": [
+						{"origin": [2.2, 0, 6.7], "size": [3, 14, 3], "uv": [48, 48]}
+					]
+				},
+				{
+					"name": "legs_1",
+					"pivot": [0, 12, -11]
+				},
+				{
+					"name": "Leg4A",
+					"parent": "legs_1",
+					"pivot": [-4, 13, 8],
+					"cubes": [
+						{"origin": [-5.3, 0, 6.7], "size": [3, 14, 3], "uv": [36, 55]}
+					]
+				},
+				{
+					"name": "Leg3A",
+					"parent": "legs_1",
+					"pivot": [3, 13, -9],
+					"cubes": [
+						{"origin": [2.2, 0, -10.3], "size": [3, 14, 3], "uv": [24, 55]}
+					]
+				}
+			]
+		}
+	]
+}

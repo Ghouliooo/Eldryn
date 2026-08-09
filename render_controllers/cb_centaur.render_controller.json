@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.cb_centaur": {
+      "arrays": {
+        "textures": {
+          "array.variant_textures": [
+            "Texture.cb_centaur1",
+            "Texture.cb_centaur2",
+            "Texture.cb_centaur3",
+            "Texture.cb_centaur4",
+            "Texture.cb_centaur5"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "array.variant_textures[query.mark_variant]" ],
+      "part_visibility": [ { "*": true } ]
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cb_hydro_bubbles",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "waist",
+					"parent": "root",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{
+							"origin": [-4, 12, -2],
+							"size": [8, 12, 4],
+							"uv": {}
+						}
+					]
+				},
+				{
+					"name": "cape",
+					"parent": "body",
+					"pivot": [0, 24, 2],
+					"cubes": [
+						{
+							"origin": [-4, 10, 2],
+							"size": [8, 14, 1],
+							"uv": {}
+						}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{
+							"origin": [-4, 24, -4],
+							"size": [8, 8, 8],
+							"uv": {}
+						}
+					]
+				},
+				{
+					"name": "helmet",
+					"parent": "head",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "rightArm",
+					"parent": "body",
+					"pivot": [-5, 22, 0],
+					"cubes": [
+						{
+							"origin": [-8, 12, -2],
+							"size": [4, 12, 4],
+							"uv": {}
+						}
+					]
+				},
+				{
+					"name": "rightItem",
+					"parent": "rightArm",
+					"pivot": [-6, 15, 1]
+				},
+				{
+					"name": "leftArm",
+					"parent": "body",
+					"pivot": [5, 22, 0],
+					"cubes": [
+						{
+							"origin": [4, 12, -2],
+							"size": [4, 12, 4],
+							"uv": {}
+						}
+					]
+				},
+				{
+					"name": "leftItem",
+					"parent": "leftArm",
+					"pivot": [6, 15, 1]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "root",
+					"pivot": [-1.9, 12, 0],
+					"cubes": [
+						{
+							"origin": [-3.9, 0, -2],
+							"size": [4, 12, 4],
+							"uv": {}
+						}
+					]
+				},
+				{
+					"name": "leftLeg",
+					"parent": "root",
+					"pivot": [1.9, 12, 0],
+					"cubes": [
+						{
+							"origin": [-0.1, 0, -2],
+							"size": [4, 12, 4],
+							"uv": {}
+						}
+					]
+				},
+				{
+					"name": "hydro_bubbles",
+					"parent": "root",
+					"pivot": [0, 18, 0]
+				},
+				{
+					"name": "hydro_bubbles2",
+					"parent": "hydro_bubbles",
+					"pivot": [-12, 18, -10],
+					"cubes": [
+						{"origin": [4, 16, -16], "size": [4, 4, 4], "pivot": [-1, 32, -4], "rotation": [0, 90, 0], "uv": [44, 32]},
+						{"origin": [6, 18, -22], "size": [8, 0, 8], "pivot": [-1, 32, -4], "rotation": [0, 90, 0], "uv": [36, 16]}
+					]
+				},
+				{
+					"name": "hydro_bubbles3",
+					"parent": "hydro_bubbles2",
+					"pivot": [-11, 18, -13],
+					"cubes": [
+						{"origin": [-11, 16, -15], "size": [22, 4, 4], "inflate": 0.001, "uv": [0, 48]},
+						{"origin": [-11, 18, -19], "size": [22, 0, 12], "uv": [-12, 0]}
+					]
+				},
+				{
+					"name": "hydro_bubbles4",
+					"parent": "hydro_bubbles3",
+					"pivot": [10, 18, -12],
+					"cubes": [
+						{"origin": [9, 16, -13], "size": [4, 4, 4], "uv": [44, 32]},
+						{"origin": [11, 18, -19], "size": [8, 0, 8], "uv": [36, 0]}
+					]
+				},
+				{
+					"name": "hydro_bubbles5",
+					"parent": "hydro_bubbles4",
+					"pivot": [13, 18, -11],
+					"cubes": [
+						{"origin": [3, 16, -1], "size": [22, 4, 4], "inflate": 0.001, "pivot": [13, 18, 1], "rotation": [0, 90, 0], "uv": [0, 48]},
+						{"origin": [3, 18, -5], "size": [22, 0, 12], "inflate": 0.001, "pivot": [13, 18, 1], "rotation": [0, 90, 0], "uv": [-12, 12]}
+					]
+				},
+				{
+					"name": "hydro_bubbles6",
+					"parent": "hydro_bubbles",
+					"pivot": [12, 18, 10],
+					"rotation": [0, 180, 0],
+					"cubes": [
+						{"origin": [28, 16, 4], "size": [4, 4, 4], "pivot": [23, 32, 16], "rotation": [0, 90, 0], "uv": [44, 32]},
+						{"origin": [30, 18, -2], "size": [8, 0, 8], "pivot": [23, 32, 16], "rotation": [0, 90, 0], "uv": [36, 24]}
+					]
+				},
+				{
+					"name": "hydro_bubbles7",
+					"parent": "hydro_bubbles6",
+					"pivot": [13, 18, 7],
+					"cubes": [
+						{"origin": [13, 16, 5], "size": [22, 4, 4], "inflate": 0.001, "uv": [0, 48]},
+						{"origin": [13, 18, 1], "size": [22, 0, 12], "uv": [-12, 24]}
+					]
+				},
+				{
+					"name": "hydro_bubbles8",
+					"parent": "hydro_bubbles7",
+					"pivot": [34, 18, 8],
+					"cubes": [
+						{"origin": [33, 16, 7], "size": [4, 4, 4], "uv": [44, 32]},
+						{"origin": [35, 18, 1], "size": [8, 0, 8], "uv": [36, 8]}
+					]
+				},
+				{
+					"name": "hydro_bubbles9",
+					"parent": "hydro_bubbles8",
+					"pivot": [37, 18, 9],
+					"cubes": [
+						{"origin": [27, 16, 19], "size": [22, 4, 4], "inflate": 0.001, "pivot": [37, 18, 21], "rotation": [0, 90, 0], "uv": [0, 48]},
+						{"origin": [27, 18, 15], "size": [22, 0, 12], "inflate": 0.001, "pivot": [37, 18, 21], "rotation": [0, 90, 0], "uv": [-12, 36]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cb:krakens_serpent",
+      "min_engine_version": "1.20.10",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "blue": "textures/entity/pamobile/cb_kraken_serpent_blue",
+        "green": "textures/entity/pamobile/cb_kraken_serpent_green",
+        "red": "textures/entity/pamobile/cb_kraken_serpent_red"
+      },
+      "geometry": {
+        "default": "geometry.cb_serpent"
+      },
+      "animations": {
+        "idle": "animation.cb_serpent.idle",
+        "swim": "animation.cb_serpent.swim",
+        "tail_flick": "animation.cb_serpent.tail_flick",
+        "controller": "controller.animation.cb_serpent"
+      },
+      "scripts": {
+        "animate": [ "controller" ]
+      },
+      "render_controllers": [
+        "controller.render.cb_serpent"
+      ],
+      "spawn_egg": {
+        "base_color": "#ABABAB",
+        "overlay_color": "#550041"
+      }
+    }
+  }
+}

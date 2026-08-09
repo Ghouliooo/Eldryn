@@ -1,0 +1,34 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cb:beamofjudgement",
+
+      "materials": {
+        "default": "entity_alphatest"
+      },
+
+      "textures": {
+        "default": "textures/entity/pamobile/cb_holy_beam4"
+      },
+
+      "geometry": {
+        "default": "geometry.cb_holy_beam"
+      },
+
+      "animations": {
+        "beamofjudgement": "animation.cb_light_magic_set.holy_beam_variant"
+      },
+
+      "scripts": {
+        "animate": [
+          "beamofjudgement"
+        ]
+      },
+
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cb_firey_bomb",
+				"texture_width": 172,
+				"texture_height": 172,
+				"visible_bounds_width": 14,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 16, 4]
+				},
+				{
+					"name": "fire_bomb",
+					"parent": "root",
+					"pivot": [0, 16, 4],
+					"rotation": [-85, 0, 0],
+					"cubes": [
+						{"origin": [-4, 12, -4], "size": [8, 8, 8], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "fire_bomb2",
+					"parent": "fire_bomb",
+					"pivot": [0, 16, -4],
+					"cubes": [
+						{
+							"origin": [0, 9, -4],
+							"size": [0, 14, 16],
+							"uv": {
+								"west": {"uv": [16, 16], "uv_size": [16, 14]}
+							}
+						},
+						{
+							"origin": [0, 9, -4],
+							"size": [0, 14, 16],
+							"pivot": [0, 16, 4],
+							"rotation": [0, 0, 90],
+							"uv": {
+								"east": {"uv": [0, 16], "uv_size": [16, 14]}
+							}
+						}
+					]
+				},
+				{
+					"name": "clash_effects",
+					"parent": "root",
+					"pivot": [0, 0.5, -0.25]
+				},
+				{
+					"name": "clash_effect",
+					"parent": "clash_effects",
+					"pivot": [0, 0, -12.5],
+					"rotation": [25, 0, 0],
+					"cubes": [
+						{
+							"origin": [-12, 0, -15.5],
+							"size": [24, 15, 0],
+							"uv": {
+								"north": {"uv": [33, 0], "uv_size": [24, 15]}
+							}
+						},
+						{
+							"origin": [-15, 0, -13.5],
+							"size": [30, 18, 0],
+							"uv": {
+								"north": {"uv": [32, 16], "uv_size": [30, 18]}
+							}
+						}
+					]
+				},
+				{
+					"name": "clash_effect2",
+					"parent": "clash_effects",
+					"pivot": [-12, 1, -0.5],
+					"rotation": [-0.23397, 1.05627, -24.97911],
+					"cubes": [
+						{
+							"origin": [-15, 1, -12.5],
+							"size": [0, 15, 24],
+							"uv": {
+								"east": {"uv": [33, 0], "uv_size": [24, 15]}
+							}
+						},
+						{
+							"origin": [-13, 0, -15.5],
+							"size": [0, 18, 30],
+							"uv": {
+								"east": {"uv": [32, 16], "uv_size": [30, 18]}
+							}
+						}
+					]
+				},
+				{
+					"name": "clash_effect3",
+					"parent": "clash_effects",
+					"pivot": [12, 1, -0.5],
+					"rotation": [-0.23397, -1.05627, 24.97911],
+					"cubes": [
+						{
+							"origin": [15, 1, -12.5],
+							"size": [0, 15, 24],
+							"uv": {
+								"west": {"uv": [33, 0], "uv_size": [24, 15]}
+							}
+						},
+						{
+							"origin": [13, 0, -15.5],
+							"size": [0, 18, 30],
+							"uv": {
+								"west": {"uv": [32, 16], "uv_size": [30, 18]}
+							}
+						}
+					]
+				},
+				{
+					"name": "clash_effect4",
+					"parent": "clash_effects",
+					"pivot": [0, 0, 12.5],
+					"rotation": [-25, 0, 0],
+					"cubes": [
+						{
+							"origin": [-12, 0, 15.5],
+							"size": [24, 15, 0],
+							"uv": {
+								"south": {"uv": [33, 0], "uv_size": [24, 15]}
+							}
+						},
+						{
+							"origin": [-15, 0, 13.5],
+							"size": [30, 18, 0],
+							"uv": {
+								"south": {"uv": [32, 16], "uv_size": [30, 18]}
+							}
+						}
+					]
+				},
+				{
+					"name": "magic_circle",
+					"parent": "root",
+					"pivot": [0, 16, 9],
+					"rotation": [-85, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 8, 9],
+							"size": [16, 16, 0],
+							"uv": {
+								"north": {"uv": [0, 43], "uv_size": [128, 128]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,74 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cb_water_drill",
+				"texture_width": 180,
+				"texture_height": 180,
+				"visible_bounds_width": 14,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 14, -14]
+				},
+				{
+					"name": "water_drill",
+					"parent": "root",
+					"pivot": [0, 16, -43]
+				},
+				{
+					"name": "water_drill2",
+					"parent": "water_drill",
+					"pivot": [0, 16, -43],
+					"cubes": [
+						{"origin": [-2.5, 13.4, -43], "size": [5, 5, 7], "uv": [53, 11]},
+						{"origin": [-4, 12, -36], "size": [8, 8, 8], "uv": [77, 7]},
+						{"origin": [-5, 11, -28], "size": [10, 10, 12], "uv": [109, 0]},
+						{"origin": [-1, 15, -47], "size": [2, 2, 4], "uv": [41, 17]}
+					]
+				},
+				{
+					"name": "water_effect",
+					"parent": "water_drill",
+					"pivot": [0, 16, -8],
+					"cubes": [
+						{
+							"origin": [0, 4.5, -43],
+							"size": [0, 23, 35],
+							"uv": {
+								"west": {"uv": [0, 0], "uv_size": [35, 23]}
+							}
+						},
+						{
+							"origin": [0, 4.5, -43],
+							"size": [0, 23, 35],
+							"pivot": [0, 16, -25],
+							"rotation": [0, 0, 90],
+							"uv": {
+								"east": {"uv": [35, 0], "uv_size": [-35, 23]}
+							}
+						}
+					]
+				},
+				{
+					"name": "magic_circle",
+					"parent": "root",
+					"pivot": [0, 16, -8],
+					"cubes": [
+						{
+							"origin": [-8, 8, -8],
+							"size": [16, 16, 0],
+							"uv": {
+								"north": {"uv": [0, 52], "uv_size": [128, 128]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
