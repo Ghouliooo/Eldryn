@@ -2,7 +2,7 @@
   "format_version": 2,
   "header": {
     "name": "§cEldryn",
-    "description": "§gAn Mythology/Fantasy Addon Made By @AyatoDayoh",
+    "description": "§gAn Mythology/Fantasy Addon Made By @Ghouliooo",
     "uuid": "1bd621b7-f72a-4bd3-a5a6-3e0db411fe7b",
     "version": [0, 0, 3],
     "min_engine_version": [1, 26, 0]
@@ -10,7 +10,7 @@
 
   "modules": [
     {
-      "description": "§gAn Mythology/Fantasy Addon Made By @AyatoDayoh",
+      "description": "§gAn Mythology/Fantasy Addon Made By @Ghouliooo",
       "type": "resources",
       "uuid": "95b89bc4-37f9-408f-b938-bd6a004cdf1b",
       "version": [0, 0, 3]
